@@ -984,4 +984,226 @@ gap: 8px;
 	height: 20px;
 	
 }
+
+
+
+@media (max-width:1024px) {
+
+.nav{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-menu{
+	display: none;
+}	
+
+
+.Hero-Section{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+}	
+
+.hero-text{
+	width: 342px;
+}
+
+.hero-text h1{
+	font-size: 56px;
+	font-weight: 600;
+}
+
+.hero-img{
+	max-width: 342px;
+}
+
+.Clients-section{
+	max-width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px
+}
+
+.clients-heading{
+	width: 100%;
+}
+
+
+.clients-logos{
+	max-width: 704px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.Community-section{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.Community-heading{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.community-cards{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+}
+
+.community-card-box{
+	width: 500px;
+}
+
+.Unlock{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+}
+
+
+.Unlock-img img{
+	width: 342px;
+
+}
+
+
+.Unlock-heading h2{
+	font-size: 28px;
+}
+
+
+.Achievements{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 30px;
+}
+
+
+.Login-section{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+}
+
+.Login-img img{
+	width: 342px;
+}
+
+.Login-heading{
+	width: 342px;
+	height: 100%;
+}
+
+.Login-heading h2{
+	font-size: 28px;
+}
+
+.Customers-section{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.Customers-img img{
+	width: 342px;
+	
+
+}
+
+.Customers-heading{
+	width: 100%;
+	height: 100%;
+}
+
+.Customers-brand-img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.markting-Updates{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.Updates-cards{
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.Updates-cards-box-img img{
+	width: 100%;
+}
+
+.demo{
+	width: 100%;
+	padding: 20px;
+}
+
+.demo-heading h2{
+	width: 100%;
+}
+
+.footer-section{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+}
+
+.footer-links{
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+
+}
  
