@@ -1147,13 +1147,16 @@ gap: 8px;
 }
 
 .Customers-heading{
-	width: 100%;
+	width: 342px;
 	height: 100%;
+	display: flex;
+
 }
 
 .Customers-brand-img{
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
     align-items: center;
     gap: 15px;
