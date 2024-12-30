@@ -986,8 +986,12 @@ gap: 8px;
 }
 
 
-
 @media (max-width:1024px) {
+
+
+body{
+	max-width: 100%;
+}
 
 .nav{
 	width: 100%;
@@ -1000,15 +1004,14 @@ gap: 8px;
 	display: none;
 }	
 
-
 .Hero-Section{
 	width: 100%;
-	height: 100%;
 	padding: 20px;
 	display: flex;
-	justify-content: space-around;
-	gap: 10px;
-}	
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
 
 .hero-text{
 	width: 342px;
@@ -1016,34 +1019,31 @@ gap: 8px;
 
 .hero-text h1{
 	font-size: 56px;
-	font-weight: 600;
 }
 
-.hero-img{
-	max-width: 342px;
+.hero-img img{
+	width: 342px;
 }
 
 .Clients-section{
-	max-width: 100%;
+	width: 100%;
 	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 20px
+	gap: 20px;
 }
 
 .clients-heading{
 	width: 100%;
 }
 
-
 .clients-logos{
-	max-width: 704px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: row;
 	gap: 20px;
 }
 
@@ -1057,109 +1057,99 @@ gap: 8px;
 	gap: 25px;
 }
 
-.Community-heading{
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: column;
-	gap: 8px;
-}
-
 .community-cards{
-	width: 100%;
-	height: 100%;
+	width: 626px;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 8px;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .community-card-box{
-	width: 500px;
+	width: 100%;
 }
+
 
 .Unlock{
 	width: 100%;
 	height: 100%;
 	padding: 20px;
 	display: flex;
-	gap: 10px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	text-align: center;
+	gap: 20px;
 }
 
-
-.Unlock-img img{
-	width: 342px;
-
+.Unlock-heading{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 20px;
 }
 
 
 .Unlock-heading h2{
-	font-size: 28px;
+	font-size: 36px;
 }
 
 
 .Achievements{
 	width: 100%;
-	padding: 20px;
 	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column;
+	text-align: center;
 	gap: 30px;
+}
+
+.Achievements-heading h2{
+	font-size: 36px;
 }
 
 
 .Login-section{
 	width: 100%;
-	height: 100%;
 	padding: 20px;
 	display: flex;
-	gap: 10px;
-}
-
-.Login-img img{
-	width: 342px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 30px;
 }
 
 .Login-heading{
-	width: 342px;
-	height: 100%;
-}
-
-.Login-heading h2{
-	font-size: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .Customers-section{
 	width: 100%;
-	height: 100%;
 	padding: 20px;
 	display: flex;
+	align-items: center;
 	justify-content: center;
-	gap: 10px;
-}
-
-.Customers-img img{
-	width: 342px;
-	
-
+	flex-direction: column;
+	text-align: center;
+	gap: 30px;
 }
 
 .Customers-heading{
-	width: 342px;
-	height: 100%;
-	display: flex;
-
+	width: 100%;
 }
 
 .Customers-brand-img{
 	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
-    align-items: center;
-    gap: 15px;
 }
 
 .markting-Updates{
@@ -1168,16 +1158,25 @@ gap: 8px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	flex-direction: column;
+	gap: 30px;
+}
+
+.Updates-heading h2  {
+	width: 100%;
 }
 
 .Updates-cards{
-	width: 500px;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	
+	flex-direction: column;
+	gap: 30px;
+}
+
+
+.Updates-cards-box{
+	width: 100%;
 }
 
 
@@ -1185,14 +1184,16 @@ gap: 8px;
 	width: 100%;
 }
 
-.demo{
+
+.demo h2{
+	font-size: 36px;
 	width: 100%;
-	padding: 20px;
 }
 
-.demo-heading h2{
-	width: 100%;
-}
+
+
+
+
 
 .footer-section{
 	width: 100%;
@@ -1208,5 +1209,8 @@ gap: 8px;
 }
 
 
+
+
 }
  
+
